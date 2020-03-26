@@ -1,11 +1,11 @@
 import React from "react";
 
-const Subtitle = ({ textStyle }) => {
+const Title = ({ textStyle }) => {
   return (
     <h1 className="test-title" style={textStyle}>
-      Subtitle
+      Main Title
     </h1>
   );
 };
 
-export default Subtitle;
+export default Title;
