@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-// import React from "react";
 import Color from "./Color";
 import colorsHexData from "./colorsHex";
 
 function Colors(props) {
   const [active, setActive] = useState(null);
   const [hover, setHover] = useState(null);
-  const handleText = index => {
+  const handleText = (index) => {
     const newColors = [...colorsHexData];
     setActive(index);
     props.onClick(newColors[index].hex);
