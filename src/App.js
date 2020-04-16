@@ -6,19 +6,13 @@ import "./App.css";
 
 function App() {
   const [titleColor, setTitleColor] = useState("");
-  // const handleText = colorHex => {
-  //   setTitleColor(colorHex);
-  // };
   const textStyle = {
-    color: "#" + titleColor
+    color: "#" + titleColor,
   };
 
   const [backColor, setBackColor] = useState("");
-  // const handleBackColor = colorHex => {
-  //   setBackColor(colorHex);
-  // };
   const backStyle = {
-    backgroundColor: "#" + backColor
+    backgroundColor: "#" + backColor,
   };
 
   return (
